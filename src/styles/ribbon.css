@@ -1,0 +1,113 @@
+.ribbon-container {
+  position: relative;
+  margin: 6rem auto 1rem;
+  width: 50%;
+  max-width: 1000px;
+  height: 80px;
+}
+
+.ribbon-container > div {
+  height: 50px;
+}
+
+.ribbon-center {
+  position: relative;
+  top: 0;
+  left: 50%;
+  z-index: 10;
+  display: block;
+  padding: 5px;
+  margin-left: -45%;
+  width: 90%;
+  background: rgb(70, 142, 229) none repeat scroll 0 0;
+}
+
+.ribbon-center > div {
+  height: 40px;
+}
+
+.ribbon-arm {
+  position: absolute;
+  top: 12px;
+  width: 8%;
+  background: rgb(48, 109, 184) none repeat scroll 0 0;
+}
+
+.ribbon-arm-left {
+  left: 0;
+}
+
+.ribbon-arm-right {
+  right: 0;
+}
+
+.ribbon-fold {
+  position: absolute;
+  top: 7px;
+  z-index: 5;
+  width: 3%;
+  background: rgb(32, 80, 139);
+}
+
+.ribbon-fold-left {
+  left: 5%;
+  transform: skew(00deg, 50deg);
+}
+
+.ribbon-fold-right {
+  right: 5%;
+  transform: skew(00deg, -50deg);
+}
+
+.ribbon-arm-left > div {
+  left: -30px;
+}
+
+.ribbon-arm-right > div {
+  right: -30px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 25px !important;
+  height: 0;
+}
+
+.arrow-top {
+  top: 0;
+  border-top: 0 solid transparent;
+  border-right: 30px solid rgb(48, 109, 184);
+  border-bottom: 25px solid transparent;
+}
+
+.arrow-bottom {
+  top: 25px;
+  border-top: 25px solid transparent;
+  border-right: 30px solid rgb(48, 109, 184);
+  border-bottom: 0 solid transparent;
+}
+
+.ribbon-arm-right .arrow-bottom {
+  border-top: 25px solid transparent;
+  border-right: none;
+  border-bottom: 0 solid transparent;
+  border-left: 30px solid rgb(48, 109, 184);
+}
+
+.ribbon-arm-right .arrow-top {
+  border-top: 0 solid transparent;
+  border-right: none;
+  border-bottom: 25px solid transparent;
+  border-left: 30px solid rgb(48, 109, 184);
+}
+
+.clickers {
+  position: relative;
+  padding: 8px 0 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
