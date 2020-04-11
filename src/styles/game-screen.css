@@ -1,0 +1,61 @@
+.clicks-intro-text {
+  overflow: hidden;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+
+.url-input {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  margin-left: 8px;
+  width: 170px;
+  font-style: italic;
+  background: white none repeat scroll 0 0;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 6px;
+}
+
+.btn-primary {
+  display: block;
+  padding: 14px 21px;
+  width: 100%;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  line-height: 64px;
+  text-transform: uppercase;
+  background: rgb(70, 142, 229) none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 8px;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: all .1s ease-in 0s;
+  user-select: none;
+}
+
+.clicks-container {
+  display: grid;
+  align-items: center;
+  margin: 24px 0;
+  width: 100%;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.clicks-player-name {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.clicks-count {
+  margin: 0;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  color: rgb(70, 142, 229);
+}
