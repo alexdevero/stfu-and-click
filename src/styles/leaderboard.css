@@ -1,0 +1,59 @@
+.leaderboard-wrapper {
+  margin: 32px auto;
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  width: 100%;
+  border-radius: 12px;
+  border: 3px solid rgb(70, 142, 229);
+  padding: 16px 0;
+  z-index: -10;
+}
+
+.top-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-wrapper {
+  flex-shrink: 1;
+  width: auto;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.form-input {
+  font-style: italic;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  background: white none repeat scroll 0% 0%;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 6px;
+  width: 90%;
+}
+
+.btn-start {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background: rgb(70, 142, 229) none repeat scroll 0% 0%;
+  font-size: 31px;
+  border-radius: 8px;
+  border: medium none;
+  padding: 14px 21px;
+  transition: all .1s ease-in 0s;
+  touch-action: manipulation;
+  flex: 1 1 0%;
+  width: 100%;
+}
+
+.text--italic {
+  font-style: italic;
+  font-size: 1em;
+}
